@@ -16,6 +16,8 @@ Ao utilizar o site, seguirá da segunte forma:
 * E então, para o sorteio, será apenas necessário clicar no botão "Sortar Amigo" que irá aparecer o nome do amigo sorteado em verde.
   ![tela_sorteado](https://github.com/user-attachments/assets/a25f016b-7dfb-4fd5-a464-d8c702b26ae7)
 
+Caso queira testar, segue o link do projeto: https://challenge-amigo-secreto-oflhejvhv-klaynaras-projects.vercel.app/ 😉
+
 ## :building_construction: Funcionalidades
 * __Adicionar Amigos__
   * O usuário insere um nome em um campo de entrada e clica no botão "Adicionar".
