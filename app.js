@@ -23,7 +23,7 @@ function limparInput(){
 
 //Função para fazer uma lista do array
 function listaArrayAmigos(){
-    let lista = document.getElementById('resultado');
+    let lista = document.getElementById('listaAmigos');
 
     lista.innerHTML = '';
 
@@ -34,3 +34,17 @@ function listaArrayAmigos(){
     }
 }
 
+//Função para sortar um amigo
+function sortearAmigo(){
+    if (amigos.length == 0){
+        alert('A lista de amigos está vazia! Adicione nomes para sortear.');
+        return;
+    }
+
+    let indiceSorteado = Math.floor(Math.random() * amigos.length);
+    let amigoSorteado = amigos[indiceSorteado];
+
+    let resultado = document.getElementById('resultado');
+    resultado.innerHTML = `O amigo sorteado foi: ${amigoSorteado}!`;
+
+}
